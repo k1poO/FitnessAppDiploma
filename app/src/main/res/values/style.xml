@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="title_text_style" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/font_poppins_regular</item>
+    </style>
+
+    <style name="regular_text_style" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/font_poppins_regular</item>
+    </style>
+
+    <style name="regular_gray_text_style" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/font_poppins_regular</item>
+    </style>
+
+    <style name="bottom_menu_style" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/font_poppins_regular</item>
+    </style>
+
+    <style name="blue_btn_text" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/font_poppins_regular</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">FitnessApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="get_started_btn">Начать</string>
+    <string name="content_description_logo">Logo FitnessX</string>
+    <string name="welcome_name">Здравствуй, %1$s!</string>
+    <string name="welcome_back_user">С возвращением, %1$s</string>
+    <string name="create_account">Создать аккаунт</string>
+    <string name="already_have_account_q">Уже есть аккаунт?</string>
+    <string name="login">" Войти"</string>
+
+    <array name="spinner_gender">
+        <item>Male</item>
+        <item>Female</item>
+    </array>
+
+    <array name="spinner_difficulty">
+        <item>Beginner</item>
+        <item>Intermediate</item>
+        <item>Expert</item>
+    </array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lets_complete_register">Давайте завершим регистрацию!</string>
+    <string name="its_help_us_to_know_more_about_you">Это поможет нам узнать о Вас больше!</string>
+    <string name="your_weight">Ваш вес</string>
+    <string name="your_height">Ваш рост</string>
+    <string name="description">Инструкция по выполнению</string>
+    <string name="continue_button">Продолжить</string>
+    <string name="your_plans">Ваши планы тренировок</string>
+    <string name="recommendations">Рекомендации</string>
+    <string name="nothing_here">Здесь пока что ничего нет...</string>
+    <string name="hello">Привет</string>
+    <string name="welcome_back">С возвращением!</string>
+    <string name="password">Пароль</string>
+    <string name="forgot_your_password">Забыли пароль?</string>
+    <string name="log_in">Войти</string>
+    <string name="have_no_account">Нет аккаунта?</string>
+    <string name="register">Зарегистрироваться</string>
+    <string name="profile">Профиль</string>
+    <string name="logout">Выйти</string>
+    <string name="create_account_now">Создай аккаунт прямо сейчас!</string>
+    <string name="name">Имя</string>
+    <string name="last_name">Фамилия</string>
+    <string name="dont_worry">Не беспокойтесь</string>
+    <string name="we_will_send_you_a_link_to_reset_your_password">Мы отправим ссылку для восстановление пароля на ваш email</string>
+    <string name="reset">Восстановить</string>
+    <string name="statistic">Статистика</string>
+    <string name="your_activity">Ваша активность</string>
+    <string name="you_are_all_set_now_let_s_reach_your_goals_together_with_us">Теперь все готово, давайте достигать ваших целей вместе с нами</string>
+    <string name="go_to_home">Домой</string>
+    <string name="exercises">Упражнения</string>
+    <string name="start_training">Начать тренировкку</string>
+    <string name="confirm">Подтвердить</string>
+    <string name="save">Сохранить</string>
+
+</resources>

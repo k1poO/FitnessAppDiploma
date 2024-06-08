@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".presentation.ExerciseFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_exercise_gif"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_marginTop="48dp"
+            android:layout_marginHorizontal="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tv_exercise_name"
+            style="@style/title_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="Name of exercise"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            app:layout_constraintTop_toBottomOf="@+id/iv_exercise_gif" />
+
+        <TextView
+            android:id="@+id/tv_description_title"
+            style="@style/title_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="@string/description"
+            android:textAlignment="center"
+            app:layout_constraintTop_toBottomOf="@+id/tv_exercise_name" />
+
+        <TextView
+            android:id="@+id/tv_exercise_description"
+            style="@style/regular_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:paddingHorizontal="16dp"
+            android:text="Description of exercise"
+            app:layout_constraintTop_toBottomOf="@+id/tv_description_title" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_next_exercise"
+            style="@style/blue_btn_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@drawable/blue_btn_bg"
+            android:text="@string/continue_button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_exercise_description" />
+
+        <ProgressBar
+            android:id="@+id/pb_updating_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
